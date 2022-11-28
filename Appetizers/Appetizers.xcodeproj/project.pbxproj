@@ -14,6 +14,7 @@
 		51D087A729314D7900B8AB2B /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087A629314D7900B8AB2B /* AppetizerListView.swift */; };
 		51D087A929314D8700B8AB2B /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087A829314D8700B8AB2B /* AccountView.swift */; };
 		51D087AB29314D9B00B8AB2B /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087AA29314D9B00B8AB2B /* OrderView.swift */; };
+		51D087AD2934DEBA00B8AB2B /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087AC2934DEBA00B8AB2B /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		51D087A629314D7900B8AB2B /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		51D087A829314D8700B8AB2B /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		51D087AA29314D9B00B8AB2B /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		51D087AC2934DEBA00B8AB2B /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				51D087A629314D7900B8AB2B /* AppetizerListView.swift */,
 				51D087A829314D8700B8AB2B /* AccountView.swift */,
 				51D087AA29314D9B00B8AB2B /* OrderView.swift */,
+				51D087AC2934DEBA00B8AB2B /* Appetizer.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D087AD2934DEBA00B8AB2B /* Appetizer.swift in Sources */,
 				51D087A929314D8700B8AB2B /* AccountView.swift in Sources */,
 				51C8AF16293149A9002B6ED1 /* AppetizerTabView.swift in Sources */,
 				51C8AF14293149A9002B6ED1 /* AppetizersApp.swift in Sources */,
