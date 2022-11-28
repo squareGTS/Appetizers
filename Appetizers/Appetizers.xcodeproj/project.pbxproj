@@ -19,6 +19,7 @@
 		51D087B12934FF5300B8AB2B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087B02934FF5300B8AB2B /* NetworkManager.swift */; };
 		51D087B32935007D00B8AB2B /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087B22935007D00B8AB2B /* APError.swift */; };
 		51D087B529350CF000B8AB2B /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087B429350CF000B8AB2B /* AppetizerListViewModel.swift */; };
+		51D087B72935109000B8AB2B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087B62935109000B8AB2B /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		51D087B02934FF5300B8AB2B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		51D087B22935007D00B8AB2B /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		51D087B429350CF000B8AB2B /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		51D087B62935109000B8AB2B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				51D087AC2934DEBA00B8AB2B /* Appetizer.swift */,
 				51D087B22935007D00B8AB2B /* APError.swift */,
 				51D087B429350CF000B8AB2B /* AppetizerListViewModel.swift */,
+				51D087B62935109000B8AB2B /* Alert.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				51C8AF16293149A9002B6ED1 /* AppetizerTabView.swift in Sources */,
 				51C8AF14293149A9002B6ED1 /* AppetizersApp.swift in Sources */,
 				51D087A729314D7900B8AB2B /* AppetizerListView.swift in Sources */,
+				51D087B72935109000B8AB2B /* Alert.swift in Sources */,
 				51D087AB29314D9B00B8AB2B /* OrderView.swift in Sources */,
 				51D087B12934FF5300B8AB2B /* NetworkManager.swift in Sources */,
 			);
