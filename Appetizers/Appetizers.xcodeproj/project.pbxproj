@@ -22,6 +22,7 @@
 		51D087B72935109000B8AB2B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087B62935109000B8AB2B /* Alert.swift */; };
 		51D087B929365E9D00B8AB2B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087B829365E9C00B8AB2B /* LoadingView.swift */; };
 		51D087BB29365F6D00B8AB2B /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087BA29365F6D00B8AB2B /* Color+Ext.swift */; };
+		51D087BD2936A44D00B8AB2B /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087BC2936A44D00B8AB2B /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		51D087B62935109000B8AB2B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		51D087B829365E9C00B8AB2B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		51D087BA29365F6D00B8AB2B /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		51D087BC2936A44D00B8AB2B /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				51D087B62935109000B8AB2B /* Alert.swift */,
 				51D087B829365E9C00B8AB2B /* LoadingView.swift */,
 				51D087BA29365F6D00B8AB2B /* Color+Ext.swift */,
+				51D087BC2936A44D00B8AB2B /* RemoteImage.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				51D087B929365E9D00B8AB2B /* LoadingView.swift in Sources */,
 				51C8AF16293149A9002B6ED1 /* AppetizerTabView.swift in Sources */,
 				51C8AF14293149A9002B6ED1 /* AppetizersApp.swift in Sources */,
+				51D087BD2936A44D00B8AB2B /* RemoteImage.swift in Sources */,
 				51D087A729314D7900B8AB2B /* AppetizerListView.swift in Sources */,
 				51D087B72935109000B8AB2B /* Alert.swift in Sources */,
 				51D087AB29314D9B00B8AB2B /* OrderView.swift in Sources */,
