@@ -12,6 +12,8 @@
 		51C8AF18293149AB002B6ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C8AF17293149AB002B6ED1 /* Assets.xcassets */; };
 		51C8AF1B293149AB002B6ED1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C8AF1A293149AB002B6ED1 /* Preview Assets.xcassets */; };
 		51CC78E229379CB5003DC307 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CC78E129379CB5003DC307 /* AppetizerDetailView.swift */; };
+		51CC78E52937AF40003DC307 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CC78E42937AF40003DC307 /* APButton.swift */; };
+		51CC78E72937B024003DC307 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CC78E62937B024003DC307 /* XDismissButton.swift */; };
 		51D087A729314D7900B8AB2B /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087A629314D7900B8AB2B /* AppetizerListView.swift */; };
 		51D087A929314D8700B8AB2B /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087A829314D8700B8AB2B /* AccountView.swift */; };
 		51D087AB29314D9B00B8AB2B /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D087AA29314D9B00B8AB2B /* OrderView.swift */; };
@@ -33,6 +35,8 @@
 		51C8AF17293149AB002B6ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51C8AF1A293149AB002B6ED1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51CC78E129379CB5003DC307 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		51CC78E42937AF40003DC307 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		51CC78E62937B024003DC307 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		51D087A629314D7900B8AB2B /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		51D087A829314D8700B8AB2B /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		51D087AA29314D9B00B8AB2B /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,15 @@
 				51C8AF1A293149AB002B6ED1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51CC78E32937AF34003DC307 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				51CC78E42937AF40003DC307 /* APButton.swift */,
+				51CC78E62937B024003DC307 /* XDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		51D087BE2937934000B8AB2B /* Screens */ = {
@@ -179,6 +192,7 @@
 		51D087C72937964200B8AB2B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				51CC78E32937AF34003DC307 /* Buttons */,
 				51D087CA2937965900B8AB2B /* Image */,
 				51D087C92937965400B8AB2B /* Cells */,
 				51D087C82937964800B8AB2B /* UiKit Componets */,
@@ -282,10 +296,12 @@
 			files = (
 				51D087AD2934DEBA00B8AB2B /* Appetizer.swift in Sources */,
 				51D087B32935007D00B8AB2B /* APError.swift in Sources */,
+				51CC78E72937B024003DC307 /* XDismissButton.swift in Sources */,
 				51D087AF2934FA4B00B8AB2B /* AppetizerListCell.swift in Sources */,
 				51D087B529350CF000B8AB2B /* AppetizerListViewModel.swift in Sources */,
 				51D087BB29365F6D00B8AB2B /* Color+Ext.swift in Sources */,
 				51D087A929314D8700B8AB2B /* AccountView.swift in Sources */,
+				51CC78E52937AF40003DC307 /* APButton.swift in Sources */,
 				51D087B929365E9D00B8AB2B /* LoadingView.swift in Sources */,
 				51C8AF16293149A9002B6ED1 /* AppetizerTabView.swift in Sources */,
 				51C8AF14293149A9002B6ED1 /* AppetizersApp.swift in Sources */,
