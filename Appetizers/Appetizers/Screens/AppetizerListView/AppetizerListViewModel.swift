@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-final class AppetizerListViewModel: ObservableObject {
+@MainActor final class AppetizerListViewModel: ObservableObject {
     @Published var appetizers: [Appetizer] = []
     @Published var alertItem: AlertItem?
     @Published var isLoading = false
@@ -28,7 +28,7 @@ final class AppetizerListViewModel: ObservableObject {
 //                    case .invalidResponse:
 //                        alertItem = AlertContext.invalidResponse
 //                    case .invalidURL:
-//                        alertItem = AlertContext.invalidURL
+    //                        alertItem = AlertContext.invalidURL
 //                    case .invalidData:
 //                        alertItem = AlertContext.invalidData
 //                    case .unableToComplete:
@@ -41,24 +41,28 @@ final class AppetizerListViewModel: ObservableObject {
     
     func getAppetizers() {
         isLoading = true
-        NetworkManager.shared.getAppetizers { result in
-            DispatchQueue.main.async { [self] in
+        
+        Task {
+            do {
+                appetizers = try await NetworkManager.shared.getAppetizers()
                 isLoading = false
-                switch result {
-                case .success(let appetizers):
-                    self.appetizers = appetizers
-                case .failure(let error):
-                    switch error {
-                    case .invalidResponse:
-                        alertItem = AlertContext.invalidResponse
+            } catch {
+                if let apError = error as? APError {
+                    switch apError {
                     case .invalidURL:
                         alertItem = AlertContext.invalidURL
+                    case .invalidResponse:
+                        alertItem = AlertContext.invalidResponse
                     case .invalidData:
                         alertItem = AlertContext.invalidData
                     case .unableToComplete:
                         alertItem = AlertContext.unableToComplete
                     }
+                } else {
+                    alertItem = AlertContext.invalidResponse
                 }
+                
+                isLoading = false
             }
         }
     }
